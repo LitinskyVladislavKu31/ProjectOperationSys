@@ -1,7 +1,7 @@
-Matrix: compile output
+LinkedList: compile output
 
-compile:Matrix.c							
-	gcc Matrix.c -o Matrix.o
+compile:LinkedList.c							
+	gcc LinkedList.c -o LinkedList.o
 
-output:Matrix.o								
-	 ./Matrix.o
+output:LinkedList.o								
+	 ./LinkedList.o
