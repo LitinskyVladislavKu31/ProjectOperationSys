@@ -1,7 +1,7 @@
-arrays[1..n]: compile output
+Matrix: compile output
 
-compile:arrays[1....n].c							
-	gcc arrays[1....n].c -o arrays[1...n].o
+compile:Matrix.c							
+	gcc Matrix.c -o Matrix.o
 
-output:arrays[1...n].o								
-	 ./arrays[1...n].o
+output:Matrix.o								
+	 ./Matrix.o
